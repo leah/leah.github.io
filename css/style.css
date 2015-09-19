@@ -1,0 +1,25 @@
+body {
+ font-family: Verdana,Arial,sans-serif;
+}
+a {
+  color: #009999;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1 {
+  font-size: 2em;
+  margin-bottom: 14px;
+}
+#nav, #footer {
+  float: right;
+  margin-top: 14px;
+}
+#nav a {
+  margin-left: 14px;
+}
+#content {
+  width: 480px;
+  margin: 60px auto;
+}
