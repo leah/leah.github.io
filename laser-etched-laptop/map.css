@@ -1,0 +1,143 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h1, h3, p {
+	text-align: center;
+}
+
+.small {
+	font-size: x-small;
+}
+
+#map {
+	position: relative;
+	width: 950px;
+	margin: 0 auto;
+	clear: both;
+}
+
+#map a { 
+	display: block;
+	position: absolute;
+	text-decoration: none;
+}
+
+#map img {
+	border: none;
+}
+
+#map a:hover {
+	background: yellow;
+	opacity: .25;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=25);
+	-moz-border-radius: 10px;
+}
+
+#map-zooomr img { height: 50px;	width: 190px; }
+#map-zooomr { top: 135px; left: 50px; }
+
+#map-squidlabs img { height: 90px;	width: 185px; }
+#map-squidlabs { top: 186px; left: 524px; }
+
+#map-instructables img { height: 67px;	width: 176px;  }
+#map-instructables { top: 279px; left: 540px; }
+
+#map-kamelwriter img { height: 60px; width: 280px; }
+#map-kamelwriter { top: 10px; left: 68px; }
+
+#map-metroproper img { height: 77px; width: 265px; }
+#map-metroproper { top: 104px; left: 333px; }
+
+#map-gametheater img { height: 61px; width: 93px; }
+#map-gametheater { top: 186px; left: 322px; }
+
+#map-smugbaby img { height: 56px; width: 144px; }
+#map-smugbaby { top: 315px; left: 402px; }
+
+#map-macfusion img { height: 58px; width: 233px; }
+#map-macfusion { top: 15px; left: 348px; }
+
+#map-andstillipersist img { height: 60px; width: 215px; }
+#map-andstillipersist { top: 70px; left: 80px; }
+
+#map-pcpal img { height: 64px; width: 95px; }
+#map-pcpal { top: 15px; left: 648px; }
+
+#map-microformats img { height: 38px; width: 152px; }
+#map-microformats { top: 70px; left: 297px; }
+
+#map-suprcilious img { height: 25px; width: 135px; }
+#map-suprcilious { top: 78px; left: 539px; }
+
+#map-postmodern img { height: 141px; width: 136px; }
+#map-postmodern { top: 400px; left: 772px; }
+
+#map-questioncopyright img { height: 50px; width: 250px; }
+#map-questioncopyright { top: 412px; left: 360px; }
+
+#map-ddautomation img { height: 74px; width: 102px; }
+#map-ddautomation { top: 230px; left: 61px; }
+
+#map-jvcreative img { height: 55px; width: 126px; }
+#map-jvcreative { top: 130px; left: 620px; }
+
+#map-hungrr img { height: 48px; width: 216px; }
+#map-hungrr { top: 365px; left: 365px; }
+
+#map-sfvibe img { height: 66px; width: 66px; }
+#map-sfvibe { top: 108px; left: 800px; }
+
+#map-make img { height: 65px; width: 175px; }
+#map-make { top: 271px; left: 715px; }
+
+#map-craft img { height: 62px; width: 132px; }
+#map-craft { top: 336px; left: 763px; }
+
+#map-ask img { height: 90px; width: 150px; }
+#map-ask { top: 183px; left: 712px; }
+
+#map-consumating img { height: 97px; width: 88px; }
+#map-consumating { top: 134px; left: 238px; }
+
+#map-valleywag img { height: 43px; width: 130px; }
+#map-valleywag { top: 245px; left: 272px; }
+
+#map-barcamp img { height: 44px; width: 166px; }
+#map-barcamp { top: 186px; left: 71px; }
+
+#map-technorati img { height: 117px; width: 103px; }
+#map-technorati { top: 229px; left: 166px; }
+
+#map-digg img { height: 65px; width: 110px; }
+#map-digg { top: 283px; left: 286px; }
+
+#map-firefox img { height: 100px; width: 114px; }
+#map-firefox { top: 300px; left: 50px; }
+
+#map-getv img { height: 62px; width: 185px; }
+#map-getv { top: 350px; left: 166px; }
+
+#map-chipmark img { height: 53px; width: 74px; }
+#map-chipmark { top: 22px; left: 580px; }
+
+#map-laugingsquid img { height: 134px; width: 134px; }
+#map-laugingsquid { top: 408px; left: 40px; }
+
+#map-reallygoodsmell img { height: 75px; width: 275px; }
+#map-reallygoodsmell { top: 467px; left: 334px; }
+
+#map-revision3 img { height: 50px; width: 170px; }
+#map-revision3 { top: 416px; left: 177px; }
+
+#map-courtneyskott img { height: 90px; width: 155px; }
+#map-courtneyskott { top: 460px; left: 615px; }
+
+#map-pbwiki img { height: 72px; width: 165px; }
+#map-pbwiki { top: 466px; left: 169px; }
+
+#map-weakerthans img { height: 26px; width: 206px; }
+#map-weakerthans { top: 106px; left: 596px; }
+
+#map-leslie img { height: 76px; width: 174px; }
+#map-leslie { top: 335px; left: 583px; }

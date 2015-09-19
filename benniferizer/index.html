@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- the benniferizer
+     by Leah Culver
+     18 October 2006
+-->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<title>the benniferizer</title>
+		<script type="text/javascript">
+		
+			vowels = "aeiouAEIOU";
+			
+			// This is a shitty algorithm but it's probably good enough for a snark
+			function benniferize() {
+				ben = document.getElementById("ben").value;
+				jennifer = document.getElementById("jennifer").value;
+				bennifer = document.getElementById("bennifer");
+				error = "";
+				
+				if (ben != null && ben != "") {
+					// get the location of the first vowel group
+					i = 0;
+					c = ben.charAt(i);
+					while (vowels.indexOf(c) == -1 && i < ben.length)
+					{
+						i++;
+						c = ben.charAt(i);
+					}
+					// first vowel found, now find the end of the vowel group
+					while (vowels.indexOf(c) != -1  && i < ben.length) {
+						i++;
+						c = ben.charAt(i);
+					}
+					ben = ben.substr(0, i);
+				} else {
+					//error
+					error = "Enter a name, jerk. ";
+				}
+				
+				if (jennifer != null && jennifer != "") {
+					// get the location of the first vowel group
+					i = 0;
+					c = jennifer.charAt(i);
+					while (vowels.indexOf(c) == -1 && i < jennifer.length) {
+						i++;
+						c = jennifer.charAt(i);
+					}
+					// first vowel found, now find the end of the vowel group
+					while (vowels.indexOf(c) != -1  && i < jennifer.length) {
+						i++;
+						c = jennifer.charAt(i);
+					}
+					jennifer = jennifer.substr(i, jennifer.length);
+				} else {
+					//error
+					error += "Enter a second name, jerk.";
+				}
+				
+				if (error == "") {
+					// sweet sweet love
+					bennifer.value = "" + ben + jennifer;
+				} else {
+					document.getElementById("error").value = error;
+				}
+			}
+		</script>
+		<style type="text/css">
+		body {font-family: Verdana,Arial; font-size: 12px;}
+		.smfont {font-size: 10px;}
+		.bennifer {border: 0px; font-size: 48px; text-align: center;}
+		.button {padding:2px 10px; font-weight: bold; color:#ED638B; background-color: #F4DFE6; border:1px solid #ED638B; text-decoration:none;}
+		.error {color:#ED638B; text-align: center; border: 0px;}
+		a {color:#ED638B;}
+		</style>
+	</head>
+	<body>
+	<form action="submit">
+		<br/><br/><br/><br/>
+		<p align="center">
+		<img src="bennifer.jpg" alt="benniferizer"/>
+		</p>
+		<br/>
+		<p align="center">
+		enter two names...
+		</p>
+		<p align="center">
+		examples: Google + YouTube, Yahoo + Facebook, Sun + Apple
+		</p>
+		<p align="center">
+		<input type="text" name="error" id="error" size="100" class="error" readonly />
+		</p>
+		<p align="center">
+		<input type="text" name="ben" id="ben" size="24" />
+		+
+		<input type="text" name="jennifer" id="jennifer" size="24" />
+		</p>
+		<p align="center">
+		<a class="button" href="#" onclick="benniferize();">benniferize!</a>
+		</p>
+		<br/><br/>
+		<p align="center">
+		<input type="text" name="bennifer" id="bennifer" size="24" class="bennifer" readonly />
+		</p>
+		
+		<br/><br/><br/><br/>
+		<p align="center">
+		Aww, how cute.
+		</p>
+		<p class="smfont" align="center">
+		&quot;
+		<a href="http://en.wikipedia.org/wiki/Portmanteau" target="_blank">portmanteau</a>
+		&quot; says nick from valleywag.
+		</p>
+	</form>
+	</body>
+
+</html>
