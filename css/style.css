@@ -20,7 +20,7 @@ h1 {
 }
 #photo {
   float: left;
-  margin-right: 40px;
+  margin: 0 40px;
 }
 p, ul {
   clear: both;
