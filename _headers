@@ -1,0 +1,14 @@
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  X-XSS-Protection: 1; mode=block
+
+https://:neilrooney.com/images/*
+  X-Robots-Tag: noindex
+
+https://:neilrooney.com/css/*
+  X-Robots-Tag: noindex
+
+https://:neilrooney.pages.dev/*
+  X-Robots-Tag: noindex
